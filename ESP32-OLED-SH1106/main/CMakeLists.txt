@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "app_demos.c"
+        "mochi_faces.c"
+        "sh1106.c"
+    INCLUDE_DIRS
+        "."
+)

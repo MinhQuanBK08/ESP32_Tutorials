@@ -1,0 +1,16 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "app_demos.c"
+        "mochi_faces.c"
+        "sh1106.c"
+        "wifi_station.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        driver
+        esp_event
+        esp_netif
+        esp_wifi
+        nvs_flash
+)
