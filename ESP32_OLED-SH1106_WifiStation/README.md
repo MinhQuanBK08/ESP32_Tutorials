@@ -182,8 +182,8 @@ The project now includes:
 Default station configuration:
 
 ```c
-#define WIFI_STATION_SSID      "CEEC"
-#define WIFI_STATION_PASSWORD  "1denmuoi1"
+#define WIFI_STATION_SSID      "YOUR_WIFI_SSID"
+#define WIFI_STATION_PASSWORD  "YOUR_WIFI_PASSWORD"
 ```
 
 `app_main()` performs the following sequence:
